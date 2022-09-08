@@ -1,21 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="header-left">
-                <div class="header-left__logo"></div>
+                <div class="header-left__logo">
+                    <img src="./assets/img/Group 155.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="header-middle">
+                <form class="header-middle__form-search">
+                    <input type="text" class="search-input" placeholder="Search Blog">
+                    <div class="search-button">
+                        <img src="./assets/img/Combined-Shape.png" class="img-fluid" alt="">
+                    </div>
+                </form>
+            </div>
+            <div class="header-right">
+                <ul class="menu">
+                    <li>
+                        <div class="menu__top">Top</div>
+                    </li>
+                    <li>
+                        <div class="menu__create-blog">Create Blog</div>
+                    </li>
+                    <li>
+                        <div class="my-profile">
+                            <div class="my-profile__name">my name</div>
+                            <div class="my-profile__avatar"><img src="./assets/img/avatar.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
         </div>
-        <div class="main"></div>
-        <div class="footer"></div>
+        <div class="main">
+            <div class="banner"><img src="./assets/img/laptop-in-modern-office 1.png" alt="" class="img-fluid"></div>
+            <section class="list-blog">
+                <div class="list-blog__title-row">
+                    <h2 class="list-blog__title-row__title">List Blog</h2>
+                    <select name="" id="" class="list-blog__title-row__categories">
+                        <option value="">Category</option>
+                    </select>
+                </div>
+                <div class="list-blog__blog-post">
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/cat.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/flowers.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post__post-item__img"><img src="./assets/img/post1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="post__post-item-text">
+                            <div class="post__post-item-author-row">
+                                <span class="post__post-item-author-row__author"><img src="./assets/img/Profile.png"
+                                        alt=""><span> Jimmy Nguyen</span></span>
+                                <span class="post__post-item-author-row__posted-time"><img src="./assets/img/clock.png"
+                                        alt=""><span> 3 mins ago</span></span>
+                            </div>
+                            <h3 class="post__post-item__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio
+                                tempora impedit,
+                            </h3>
+                            <p class="post__post-item__describe">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+
+                            </p>
+                            <button class="post__post-item__read-more">Read more -></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <div class="pagination__icon"><img src="./assets/img/Vector.png" alt="" class="img-fluid"></div>
+                    <div class="pagination__page">1</div>
+                    <div class="pagination__page">2</div>
+                    <div class="pagination__page">3</div>
+                    <div class="pagination__page">4</div>
+                    <div class="pagination__page">5</div>
+                    <div class="pagination__icon"><img src="./assets/img/Vector2.png" alt="" class="img-fluid"></div>
+                </div>
+            </section>
+        </div>
+        <div class="footer"><span>Copyright 2022. Made by Regit JSC</span></div>
     </div>
+<script src="./index.js"></script>
 </body>
+
 </html>
