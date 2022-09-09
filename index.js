@@ -1,14 +1,15 @@
 
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
+
+window.addEventListener("scroll", () => {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollpos > currentScrollPos && currentScrollPos > 100) {
     document.getElementsByClassName("header")[0].style.top = "-100px";
   } else {
     document.getElementsByClassName("header")[0].style.top = "0";
   }
   prevScrollpos = currentScrollPos;
-}
+})
 
 // animation active
 var paginationRow = document.getElementById("pagination")

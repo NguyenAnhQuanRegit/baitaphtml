@@ -6,8 +6,7 @@
 
 body {
   margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 500;
+  font-family: 'Noto Sans JP';
   font-size: 15px;
 }
 
@@ -26,6 +25,12 @@ body {
   color: #C40000;
 }
 
+@font-face {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/font/SVN-GilroyMedium.otf');
+}
 
 
 /* +================================== HEADER ========================================+ */
@@ -72,7 +77,7 @@ ul.menu li {
 .menu__top {
   color: white;
   background-color: #770303;
-  padding: 3px 10px;
+  padding: 5px 13px;
 }
 
 .menu__create-blog {
@@ -117,8 +122,10 @@ ul.menu li {
 }
 
 .list-blog__title-row__title {
+  font-family: Gilroy;
   font-size: 3.2em;
-  font-weight: 700;
+  font-weight: bolder;
+  line-height: 72.4px;
 }
 
 .list-blog__title-row__categories {
@@ -157,9 +164,11 @@ ul.menu li {
 }
 
 .post__post-item__title {
+  font-family: "Arial";
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   margin: 15px 0;
+  color: #211E3B;
 }
 
 .post__post-item__read-more {
