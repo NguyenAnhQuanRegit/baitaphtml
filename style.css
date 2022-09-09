@@ -26,9 +26,7 @@ body {
   color: #C40000;
 }
 
-.hide {
-  opacity: 0;
-}
+
 
 /* +================================== HEADER ========================================+ */
 .header {
@@ -54,7 +52,7 @@ body {
 }
 
 .search-button-responsive {
-  display: hidden;
+  display: none;
 }
 
 .search-input {
@@ -283,5 +281,9 @@ ul.menu li {
     background-color: transparent;
     color: black;
     padding: 1em 0;
+  }
+
+  .hide {
+    opacity: 0;
   }
 }
