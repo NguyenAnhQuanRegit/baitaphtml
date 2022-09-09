@@ -21,3 +21,11 @@ for (var i = 0; i < paginationButton.length; i++) {
     this.className += " active";
   });
 }
+
+// menu toggle dropdown button open
+var menuToggleButton = document.getElementsByClassName("header-right__menu-toggle-btn")[0];
+var menu = document.getElementsByClassName("menu")[0];
+
+menuToggleButton.addEventListener("click", () => {
+  menu.classList.toggle("hide");
+})
