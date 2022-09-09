@@ -21,5 +21,3 @@ for (var i = 0; i < paginationButton.length; i++) {
     this.className += " active";
   });
 }
-
-console.log("123");

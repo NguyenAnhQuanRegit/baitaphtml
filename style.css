@@ -14,7 +14,6 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
-  min-height: 200vh;
 }
 
 .img-fluid {
@@ -22,7 +21,7 @@ body {
   height: auto;
 }
 
-.active{
+.active {
   background-color: #FFE4E4;
   color: #C40000;
 }
@@ -160,7 +159,7 @@ ul.menu li {
 
 /* ============================================= Pagination ========================================== */
 
-.pagination{
+.pagination {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +167,7 @@ ul.menu li {
   margin-top: 50px;
 }
 
-.pagination__page{
+.pagination__page {
   font-weight: 700;
   font-size: 18px;
   border-radius: 100%;
@@ -179,18 +178,19 @@ ul.menu li {
 
 
 
-.pagination__icon{
+.pagination__icon {
   background-color: #E5E5E5;
   padding: 9px 17px;
   border-radius: 100%;
 }
-.pagination__icon:hover{
+
+.pagination__icon:hover {
   background-color: #C40000;
 }
 
 /* ====================================== Footer =================================================== */
 
-.footer{
+.footer {
   text-align: center;
   padding: 2.4em;
   margin-top: 96px;
