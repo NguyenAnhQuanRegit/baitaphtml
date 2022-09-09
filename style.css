@@ -22,6 +22,11 @@ body {
   height: auto;
 }
 
+.active{
+  background-color: #FFE4E4;
+  color: #C40000;
+}
+
 /* +================================== HEADER ========================================+ */
 .header {
   display: flex;
@@ -168,12 +173,11 @@ ul.menu li {
   font-size: 18px;
   border-radius: 100%;
   padding: 5px 12px;
+  border: none;
+  cursor: pointer;
 }
 
-.pagination__page:hover{
-  background-color: #FFE4E4;
-  color: #C40000;
-}
+
 
 .pagination__icon{
   background-color: #E5E5E5;
