@@ -16,7 +16,7 @@ body {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -26,10 +26,10 @@ body {
 }
 
 @font-face {
-  font-family: Gilroy;
+  font-family: 'SVN-Gilroy Bold';
   font-style: normal;
   font-weight: normal;
-  src: url('./assets/font/SVN-GilroyMedium.otf');
+  src: local('SVN-Gilroy Bold'), url('SVNGilroy Bold.woff') format('woff');
 }
 
 
@@ -38,11 +38,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 7em;
+  padding: 2em 6.8em;
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #ffffffb3;
+  background-color: #ffffffce;
   transition: top 0.3s;
 }
 
@@ -51,7 +51,7 @@ body {
   justify-content: space-between;
   background: white;
   padding: 0.6em 1.1em;
-  width: 374px;
+  width: 24.93em;
   margin-right: 20em;
   border-radius: 6px;
 }
@@ -77,11 +77,16 @@ ul.menu li {
 .menu__top {
   color: white;
   background-color: #770303;
-  padding: 5px 13px;
+  padding: 4.6px 12px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 21.72px;
+  font-size: 15px;
+  border: 1px solid #770303;
 }
 
 .menu__create-blog {
-  margin-right: 3em;
+  margin-right: 6em;
 }
 
 .my-profile {
@@ -103,15 +108,15 @@ ul.menu li {
 /* +================================================= MAIN ==========================================+ */
 .list-blog {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   margin-top: 72px;
+  padding: 0 6.8em;
 }
 
 .list-blog__blog-post {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
+  gap: 4.6em;
   margin: 2.5em auto;
 }
 
@@ -122,7 +127,6 @@ ul.menu li {
 }
 
 .list-blog__title-row__title {
-  font-family: Gilroy;
   font-size: 3.2em;
   font-weight: bolder;
   line-height: 72.4px;
@@ -149,12 +153,14 @@ ul.menu li {
 
 .post__post-item-text {
   padding: 1.5em 1.1em;
+  color: #211E3B;
 }
 
 .post__post-item-author-row {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  color: #211E3B;
 }
 
 .post__post-item-author-row * {
@@ -164,8 +170,7 @@ ul.menu li {
 }
 
 .post__post-item__title {
-  font-family: "Arial";
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 20px;
   margin: 15px 0;
   color: #211E3B;
@@ -194,9 +199,9 @@ ul.menu li {
 
 .pagination__page {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 100%;
-  padding: 5px 12px;
+  padding: 1px 10px;
   border: none;
   cursor: pointer;
 }
@@ -294,5 +299,11 @@ ul.menu li {
 
   .hide {
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .header-middle__form-search {
+    margin-right: 90em;
   }
 }
