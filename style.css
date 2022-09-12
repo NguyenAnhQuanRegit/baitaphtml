@@ -181,18 +181,18 @@ ul.menu li {
   display: flex;
   align-items: center;
   margin-right: 8px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .post__post-item__title {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 18px;
   margin: 15px 0;
   color: #211E3B;
 }
 
 .post__post-item__describe {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .post__post-item__read-more {
