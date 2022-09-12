@@ -210,6 +210,12 @@ ul.menu li {
   gap: 8px;
 }
 
+
+.post__post-item__read-more:hover {
+  background-color: #C40000;
+  color: white;
+}
+
 .post__post-item__read-more i {
   margin-top: 3px;
 }
