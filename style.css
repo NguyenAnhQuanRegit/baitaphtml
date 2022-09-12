@@ -116,7 +116,8 @@ ul.menu li {
 .list-blog__blog-post {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4.6em;
+  column-gap: 2em;
+  row-gap: 4.6em;
   margin: 2.5em auto;
 }
 
