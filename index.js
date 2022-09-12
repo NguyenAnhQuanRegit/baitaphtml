@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
 
 // animation active
 var paginationRow = document.getElementById("pagination")
-var paginationButton = paginationRow.getElementsByClassName("pagination__page");
+var paginationButton = paginationRow.getElementsByClassName("pagination__button");
 
 for (var i = 0; i < paginationButton.length; i++) {
   paginationButton[i].addEventListener("click", function () {

@@ -23,14 +23,10 @@ body {
 }
 
 .active {
-  background-color: #FFE4E4;
+  background-color: #FFE4E4 !important;
   color: #C40000;
 }
 
-.pagination button {
-  background-color: transparent;
-  border: none;
-}
 
 a {
   text-decoration: none;
@@ -185,18 +181,18 @@ ul.menu li {
   display: flex;
   align-items: center;
   margin-right: 8px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .post__post-item__title {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 18px;
   margin: 15px 0;
   color: #211E3B;
 }
 
 .post__post-item__describe {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .post__post-item__read-more {
@@ -208,6 +204,14 @@ ul.menu li {
   font-weight: 400;
   border-radius: 4px;
   margin-top: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.post__post-item__read-more i {
+  margin-top: 3px;
 }
 
 /* ============================================= Pagination ========================================== */
@@ -221,14 +225,27 @@ ul.menu li {
 
 }
 
+.pagination__button {
+  border: none;
+  border-radius: 50%;
+  min-width: 32px;
+  min-height: 32px;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+}
+
 .pagination__page {
   font-weight: 700;
-  font-size: 20px;
-  border-radius: 100%;
-  padding: 0.5px 8px 3px 8px;
-  border: 1px solid transparent;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  border: none;
   cursor: pointer;
-  vertical-align: middle;
+  border-radius: 100%;
 }
 
 
