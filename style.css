@@ -23,7 +23,7 @@ body {
 }
 
 .active {
-  background-color: #FFE4E4;
+  background-color: #FFE4E4 !important;
   color: #C40000;
 }
 
@@ -232,6 +232,7 @@ ul.menu li {
   min-height: 40px;
   position: relative;
   overflow: hidden;
+  background-color: transparent;
 }
 
 .pagination__page {
