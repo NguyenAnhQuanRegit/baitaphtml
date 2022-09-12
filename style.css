@@ -228,8 +228,8 @@ ul.menu li {
 .pagination__button {
   border: none;
   border-radius: 50%;
-  min-width: 40px;
-  min-height: 40px;
+  min-width: 32px;
+  min-height: 32px;
   position: relative;
   overflow: hidden;
   background-color: transparent;
