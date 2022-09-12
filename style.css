@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans JP';
+  font-weight: 400;
+  font-size: 15px;
 }
+
 
 body {
   margin: 0;
-  font-family: 'Noto Sans JP';
-  font-size: 15px;
 }
 
 .container {
@@ -25,12 +27,16 @@ body {
   color: #C40000;
 }
 
-@font-face {
-  font-family: 'SVN-Gilroy Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: local('SVN-Gilroy Bold'), url('SVNGilroy Bold.woff') format('woff');
+.pagination button {
+  background-color: transparent;
+  border: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+
 
 
 /* +================================== HEADER ========================================+ */
@@ -49,8 +55,9 @@ body {
 .header-middle__form-search {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   background: white;
-  padding: 0.6em 1.1em;
+  padding: 0.6em 1.1em 0.4em 1.1em;
   width: 24.93em;
   margin-right: 20em;
   border-radius: 6px;
@@ -62,6 +69,12 @@ body {
 
 .search-input {
   border: none;
+  margin-bottom: 4px;
+}
+
+.search-input::placeholder {
+  font-weight: 500;
+  color: #D4D1D4;
 }
 
 .header-right {
@@ -83,6 +96,10 @@ ul.menu li {
   line-height: 21.72px;
   font-size: 15px;
   border: 1px solid #770303;
+}
+
+.menu__top a {
+  color: white;
 }
 
 .menu__create-blog {
@@ -167,14 +184,19 @@ ul.menu li {
 .post__post-item-author-row * {
   display: flex;
   align-items: center;
-  margin-right: 6px;
+  margin-right: 8px;
+  font-size: 18px;
 }
 
 .post__post-item__title {
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 20px;
   margin: 15px 0;
   color: #211E3B;
+}
+
+.post__post-item__describe {
+  font-size: 18px;
 }
 
 .post__post-item__read-more {
@@ -196,15 +218,17 @@ ul.menu li {
   align-items: center;
   gap: 25px;
   margin-top: 50px;
+
 }
 
 .pagination__page {
   font-weight: 700;
   font-size: 20px;
   border-radius: 100%;
-  padding: 1px 10px;
-  border: none;
+  padding: 0.5px 8px 3px 8px;
+  border: 1px solid transparent;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 
@@ -235,10 +259,11 @@ ul.menu li {
     display: flex;
     flex-direction: column;
     gap: 70px;
+    margin: 0.9em auto;
   }
 
   .list-blog {
-    padding: 0 4em;
+    padding: 0 2em;
   }
 
   .list-blog__title-row__title {
@@ -294,12 +319,17 @@ ul.menu li {
 
   .menu__top {
     background-color: transparent;
-    color: black;
-    padding: 1em 0;
+    padding: 0;
+    border: none;
+    text-align: start;
+  }
+
+  .menu__top a {
+    color: black
   }
 
   .hide {
-    opacity: 0;
+    display: none;
   }
 }
 
