@@ -27,10 +27,6 @@ body {
   color: #C40000;
 }
 
-.pagination button {
-  background-color: transparent;
-  border: none;
-}
 
 a {
   text-decoration: none;
@@ -229,14 +225,26 @@ ul.menu li {
 
 }
 
+.pagination__button {
+  border: none;
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
 .pagination__page {
   font-weight: 700;
-  font-size: 20px;
-  border-radius: 100%;
-  padding: 0.5px 8px 3px 8px;
-  border: 1px solid transparent;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  border: none;
   cursor: pointer;
-  vertical-align: middle;
+  border-radius: 100%;
 }
 
 
