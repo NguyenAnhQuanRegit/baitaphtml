@@ -208,6 +208,14 @@ ul.menu li {
   font-weight: 400;
   border-radius: 4px;
   margin-top: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.post__post-item__read-more i {
+  margin-top: 3px;
 }
 
 /* ============================================= Pagination ========================================== */
